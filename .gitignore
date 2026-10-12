@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets: API keys go in the environment or a local .env, never in git
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime data: uploaded bank/payout files, generated reports and learned layouts (real financial data)
+storage/
+
+# Generated reconciliation reports and Excel lock files
+report*.xlsx
+reconciliation_*.xlsx
+~$*.xlsx
+
+# Logs
+*.log

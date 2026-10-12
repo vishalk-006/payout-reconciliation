@@ -1,0 +1,60 @@
+{
+  "id": "payout_register-f5427feae829d65c",
+  "fingerprint": "f5427feae829d65c",
+  "kind": "payout_register",
+  "header": [
+    "Payout ID",
+    "Employee ID",
+    "Employee Name",
+    "Bank Account (masked)",
+    "IFSC",
+    "Amount",
+    "Payout Date",
+    "Claim IDs",
+    "Status"
+  ],
+  "columns": {
+    "payout_id": {
+      "header": "Payout ID",
+      "index": 0
+    },
+    "employee_id": {
+      "header": "Employee ID",
+      "index": 1
+    },
+    "employee_name": {
+      "header": "Employee Name",
+      "index": 2
+    },
+    "bank_account": {
+      "header": "Bank Account (masked)",
+      "index": 3
+    },
+    "ifsc": {
+      "header": "IFSC",
+      "index": 4
+    },
+    "amount": {
+      "header": "Amount",
+      "index": 5
+    },
+    "payout_date": {
+      "header": "Payout Date",
+      "index": 6
+    },
+    "claim_ids": {
+      "header": "Claim IDs",
+      "index": 7
+    },
+    "status": {
+      "header": "Status",
+      "index": 8
+    }
+  },
+  "date_order": "DMY",
+  "negative_amount_means": "NOT_APPLICABLE",
+  "source": "seeded",
+  "verified": true,
+  "notes": "Chronon payout register export (our own system).",
+  "created_at": "2026-10-09T17:34:47+00:00"
+}

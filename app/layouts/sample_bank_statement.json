@@ -1,0 +1,50 @@
+{
+  "id": "bank_statement-93ffcf8a5a837ab2",
+  "fingerprint": "93ffcf8a5a837ab2",
+  "kind": "bank_statement",
+  "header": [
+    "Txn Date",
+    "Value Date",
+    "Narration",
+    "Cheque/Ref No",
+    "Debit",
+    "Credit",
+    "Balance"
+  ],
+  "columns": {
+    "txn_date": {
+      "header": "Txn Date",
+      "index": 0
+    },
+    "value_date": {
+      "header": "Value Date",
+      "index": 1
+    },
+    "narration": {
+      "header": "Narration",
+      "index": 2
+    },
+    "reference": {
+      "header": "Cheque/Ref No",
+      "index": 3
+    },
+    "debit": {
+      "header": "Debit",
+      "index": 4
+    },
+    "credit": {
+      "header": "Credit",
+      "index": 5
+    },
+    "balance": {
+      "header": "Balance",
+      "index": 6
+    }
+  },
+  "date_order": "DMY",
+  "negative_amount_means": "NOT_APPLICABLE",
+  "source": "seeded",
+  "verified": true,
+  "notes": "Bank statement layout of the assignment's bank_statement.xlsx: split Debit/Credit columns, day-first dates.",
+  "created_at": "2026-10-09T17:34:47+00:00"
+}

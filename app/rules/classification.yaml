@@ -1,0 +1,66 @@
+# Keyword rules for classifying bank rows. Matched as whole words on the upper-cased
+# narration (punctuation removed), so 'TAX' does not match 'TAXI'.
+# Precedence: a row containing a known Payout ID is always a payout candidate.
+bank_charge:
+  - CHARGES
+  - CHARGE
+  - CHGS
+  - CHG
+  - COMMISSION
+  - SMS ALERT
+  - SERVICE TAX
+  - AMC
+  - FEE
+  - FEES
+non_payout_debit:
+  - SALARY
+  - SAL
+  - PAYROLL
+  - VENDOR
+  - RENT
+  - TDS
+  - TAX
+  - GST
+  - CHALLAN
+  - EMI
+  - LOAN
+  - INSURANCE
+  - NACH
+  - ACH
+  - ECS
+  - CC PAYMENT
+  - ATM
+  - CASH WDL
+  - PVT
+  - LTD
+  - LLP
+  - INVOICE
+  - INV
+payout_channel:
+  - NEFT
+  - IMPS
+  - RTGS
+  - UPI
+  - IFT
+  - FT
+  - TRF
+  - TRANSFER
+  - CHRONON
+  - REIMB
+  - REIMBURSEMENT
+  - PAYOUT
+reversal_credit:
+  - RETURN
+  - RETURNED
+  - RTN
+  - REVERSAL
+  - REVERSED
+  - REV
+  - REJECT
+  - REJECTED
+  - BOUNCE
+  - BOUNCED
+  - INVALID
+  - ACCOUNT CLOSED
+  - A C CLOSED
+  - FAILED
